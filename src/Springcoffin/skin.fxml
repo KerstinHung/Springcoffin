@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Springcoffin.skinController">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="80.0" layoutX="15.0" layoutY="18.0" onMouseClicked="#onBackPressed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../BackButton.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="_saving" layoutX="505.0" layoutY="24.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="15.0" layoutY="85.0" prefHeight="308.0" prefWidth="570.0">
+        <content>
+            <Pane prefHeight="290.0" prefWidth="1350.0">
+               <children>
+                  <ImageView fx:id="_btn1" fitHeight="40.0" fitWidth="80.0" layoutX="26.0" layoutY="226.0" onMouseClicked="#on1Pressed" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../SelectButton.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="_btn3" fitHeight="40.0" fitWidth="80.0" layoutX="396.0" layoutY="226.0" onMouseClicked="#on3Pressed" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../BuyButton.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="_btn4" fitHeight="40.0" fitWidth="80.0" layoutX="581.0" layoutY="226.0" onMouseClicked="#on4Pressed" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../BuyButton.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="_btn5" fitHeight="40.0" fitWidth="80.0" layoutX="766.0" layoutY="226.0" onMouseClicked="#on5Pressed" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../BuyButton.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="_btn6" fitHeight="40.0" fitWidth="80.0" layoutX="951.0" layoutY="226.0" onMouseClicked="#on6Pressed" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../BuyButton.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="_btn7" fitHeight="40.0" fitWidth="80.0" layoutX="1136.0" layoutY="226.0" onMouseClicked="#on7Pressed" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../BuyButton.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="204.0" fitWidth="102.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../captainV1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="204.0" fitWidth="102.0" layoutX="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../captainV2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="204.0" fitWidth="102.0" layoutX="385.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../captainV3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="204.0" fitWidth="102.0" layoutX="570.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../captainV4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="204.0" fitWidth="102.0" layoutX="755.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../captainV5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="204.0" fitWidth="102.0" layoutX="940.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../captainV6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="204.0" fitWidth="102.0" layoutX="1125.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../captainV7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="_btn2" fitHeight="40.0" fitWidth="80.0" layoutX="211.0" layoutY="226.0" onMouseClicked="#on2Pressed" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../BuyButton.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+        </content>
+      </ScrollPane>
+      <ImageView fx:id="_test" fitHeight="40.0" fitWidth="80.0" layoutX="144.0" layoutY="18.0" onMousePressed="#onTestPressed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../BuyButton.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
